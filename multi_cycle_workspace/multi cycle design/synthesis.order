@@ -1,0 +1,7 @@
+i<>.\src\ALU.vhd
+i<>.\src\alu_tb.vhd
+i<>.\src\asd.bde
+i<>.\src\memory.vhd
+i<>.\src\memory_tb.vhd
+i<>.\src\memory_testbench.vhd
+i<>.\src\dsa.bde

@@ -1,0 +1,13 @@
+202
+~E 1 "./compile/dsa.vhd" 25 dsa
+~A 1 "./compile/dsa.vhd" 28 dsa
+~E 1 "./src/alu_tb.vhd" 6 alu_tb
+~A 1 "./src/alu_tb.vhd" 16 alu_tb_b
+~E 1 "./src/ALU.vhd" 5 alu
+~A 1 "./src/ALU.vhd" 16 alu_behaviour
+~E 1 "./compile/asd.vhd" 25 asd
+~A 1 "./compile/asd.vhd" 28 asd
+~E 1 "./src/memory.vhd" 5 memory
+~A 1 "./src/memory.vhd" 24 mem_arch
+~E 1 "./src/memory_testbench.vhd" 5 memory_testbench
+~A 1 "./src/memory_testbench.vhd" 18 tb

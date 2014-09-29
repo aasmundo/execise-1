@@ -1,0 +1,71 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=2
+Current Config=compile
+
+[Configurations]
+compile=multi_cycle_design
+
+[Library]
+multi_cycle_design=.\multi_cycle_design.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+EnableCC=0
+EnableEXC=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+EnableExpressionCoverage=0
+
+[LocalVhdlSets]
+EnableExpressionCoverage=0
+CompileWithDebug=0
+
+[$LibMap$]
+multi_cycle_design=.
+Active_lib=
+
+[Files]
+/ALU.vhd=-1
+/alu_tb.vhd=-1
+/asd.bde=-1
+/memory.vhd=-1
+/memory_tb.vhd=-1
+/memory_testbench.vhd=-1
+/dsa.bde=-1
+
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\alu_tb.vhd=VHDL Source Code
+.\src\asd.bde=Block Diagram
+.\src\memory.vhd=VHDL Source Code
+.\src\memory_tb.vhd=VHDL Source Code
+.\src\memory_testbench.vhd=VHDL Source Code
+.\src\dsa.bde=Block Diagram
+
+[file_out:/asd.bde]
+/..\compile\asd.vhd=-1
+
+[file_out:/dsa.bde]
+/..\compile\dsa.vhd=-1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=asd|asd|0 dsa|dsa|0 
+ShowHide=ShowTopLevel
+Selected=

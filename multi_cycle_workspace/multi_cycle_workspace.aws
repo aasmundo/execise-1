@@ -1,0 +1,12 @@
+[Version]
+Version=8.2
+[Designs]
+multi cycle design=.\multi cycle design\multi cycle design.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+multi cycle design=1

@@ -1,0 +1,19 @@
+elbread.dll ver. 1.0.5.375 Mon Sep 29 17:16:32 2014
+
+
+-------------------------------------------------------
+Entity            | Architecture | Library           
+-------------------------------------------------------
+dsa               | dsa          | multi_cycle_design
+memory            | mem_arch     | multi_cycle_design
+memory_testbench  | tb           | multi_cycle_design
+-----------------------------------------------------
+
+---------------------------
+Package         | Library
+---------------------------
+standard        | std
+TEXTIO          | std
+std_logic_1164  | ieee
+NUMERIC_STD     | ieee
+-------------------------
